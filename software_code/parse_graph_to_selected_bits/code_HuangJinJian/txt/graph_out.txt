@@ -1,0 +1,12 @@
+ethernet->mpls->mpls(1)->mpls(2)->mpls(3)->mpls(4)->mpls-pseudo->ipv4
+ethernet->mpls->mpls(1)->mpls(2)->mpls(3)->mpls(4)->mpls-pseudo->ipv6
+ethernet->mpls->mpls(1)->mpls(2)->mpls(3)->mpls-pseudo->ipv4
+ethernet->mpls->mpls(1)->mpls(2)->mpls(3)->mpls-pseudo->ipv6
+ethernet->mpls->mpls(1)->mpls(2)->mpls-pseudo->ipv4
+ethernet->mpls->mpls(1)->mpls(2)->mpls-pseudo->ipv6
+ethernet->mpls->mpls(1)->mpls-pseudo->ipv4
+ethernet->mpls->mpls(1)->mpls-pseudo->ipv6
+ethernet->mpls->mpls-pseudo->ipv4
+ethernet->mpls->mpls-pseudo->ipv6
+ethernet->ipv4
+ethernet->ipv6

@@ -1,0 +1,9 @@
+ethernet : (0x8847, 0x8848)->mpls, (0x0800)->ipv4, (0x86dd)->ipv6, 
+mpls : (b0)->mpls, (b1)->mpls-pseudo, 
+mpls(1) : (b0)->mpls, (b1)->mpls-pseudo, 
+mpls(2) : (b0)->mpls, (b1)->mpls-pseudo, 
+mpls(3) : (b0)->mpls, (b1)->mpls-pseudo, 
+mpls(4) : (b0)->mpls, (b1)->mpls-pseudo, 
+mpls-pseudo : (b0100)->ipv4, (b0110)->ipv6, 
+ipv4 : 
+ipv6 : 

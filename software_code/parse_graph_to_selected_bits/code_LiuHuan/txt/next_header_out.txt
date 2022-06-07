@@ -1,0 +1,11 @@
+ethernet : (0x8100, 0x9100)->ieee802-1q, (0x0800)->ipv4, (0x86dd)->ipv6, 
+ieee802-1q : (0x8100)->ieee802-1q, (0x0800)->ipv4, (0x86dd)->ipv6, 
+ieee802-1q(1) : (0x8100)->ieee802-1q, (0x0800)->ipv4, (0x86dd)->ipv6, 
+ipv4 : (1)->icmp, (6)->tcp, (17)->udp, 
+ipv6 : (58)->icmpv6, (6)->tcp, (17)->udp, 
+icmp : 
+icmpv6 : 
+tcp : 
+udp : 
+arp_rarp : (0x0800)->arp_rarp_ipv4, 
+arp_rarp_ipv4 : 
