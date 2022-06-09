@@ -1,0 +1,1 @@
+New code is more concise.
